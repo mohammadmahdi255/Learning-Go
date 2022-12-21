@@ -30,6 +30,7 @@ func (s Student) Hello() string {
 	return "Hello"
 }
 
+// support any type like empty subset
 type Any interface{}
 
 func main() {
